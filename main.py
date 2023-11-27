@@ -19,7 +19,7 @@ def get_user_input():
 
 def main():
     # Load the pre-trained model
-    model_filename = "knn_model.joblib"
+    model_filename = "model.joblib"
     model = joblib.load(model_filename)
 
     user_input = get_user_input()
